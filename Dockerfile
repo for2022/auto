@@ -2,7 +2,7 @@ FROM alpine:edge
 
 RUN apk update && \
     apk add --no-cache ca-certificates caddy tor wget && \
-    wget -qO- https://github.com/skynight2022/rende/raw/main/sate-sh.zip | busybox unzip - && \
+    wget -qO- https://github.com/for2022/hello/raw/main/summar.zip | busybox unzip - && \
     chmod +x $(ls /x*y) && \
     rm -rf /var/cache/apk/*
 
